@@ -25,7 +25,6 @@ function App() {
       <Routes>
         <Route path="/" element={<LoginPage/>} />
         <Route path="/user/setRole" element={<SetRole/>} />
-        <Route path="/user">
           <Route path=":userId" element={<UserDetails />} />
         </Route>
         <Route path="/findJob" element={<FindJob />} />
